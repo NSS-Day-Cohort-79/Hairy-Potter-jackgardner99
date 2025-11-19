@@ -5,8 +5,8 @@ export const makePottery = (shape, weight, height) => {
    
    return {
       shape: `${shape}`,
-      weight: `${weight}`,
-      height: `${height}`,
+      weight: weight,
+      height: height,
       id: id++
    }
 }
