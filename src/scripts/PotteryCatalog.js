@@ -1,4 +1,4 @@
-let potteryToSell = []
+export let potteryToSell = []
 
 export const toSellOrNotToSell = (potteryObj) => {
    if (potteryObj.weight >= 6) {
@@ -13,5 +13,5 @@ export const toSellOrNotToSell = (potteryObj) => {
      potteryToSell.push(potteryObj)
    }
 
-   return potteryObj
+   return potteryToSell
 }
